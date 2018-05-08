@@ -96,11 +96,14 @@ class HomeController extends Controller
 //        });
 //        $promise1->wait();
 
-        $request2 = new \GuzzleHttp\Psr7\Request('GET', 'https://graph.facebook.com/eyadini/events?access_token=564202827266707|a142d6093609903a733d60797255520f&fields=start_time,place,cover,name,description&limit=4');
+        $request2 = new \GuzzleHttp\Psr7\Request('GET', 'https://graph.facebook.com/eyadiniloungenuz/events?access_token=564202827266707|a142d6093609903a733d60797255520f&fields=start_time,place,cover,name,description&limit=4');
         $promise2 = $client->sendAsync($request2)->then(function ($response) {
             $events = json_decode($response->getBody(), true);
             $ventsArray= collect($events)->first();
             $allEvents = array();
+
+//            dd($allEvents);
+
             foreach ($ventsArray as $singleEvent) {
                 $event = new Event();
                 $event->id = $singleEvent["id"];

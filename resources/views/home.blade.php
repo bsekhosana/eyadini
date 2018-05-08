@@ -12,7 +12,7 @@
     <title>Eyadini</title>
     <!-- Meta Description -->
     <meta name="description" content="Iyadi Labantu">
-    <meta name="keywords" content="shisa nyama, shisanyama, party, nightlife, night, umlazi, business, drinks, eyadini, iyadi labantu, iyadi, iyadi lizoku mangaza">
+    <meta name="keywords" content="shisa nyama, shisanyama, party, nightlife, night, umlazi, business, drinks, eyadini, iyadi labantu, iyadi, iyadi lizoku mangaza, eyadiniloungenuz">
     <meta name="author" content="Blaque Dev Ops">
 
     <!-- Mobile Specific Meta -->
@@ -63,15 +63,6 @@
         {{--}(document, 'script', 'facebook-jssdk'));--}}
 
     {{--</script>--}}
-
-    <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=564202827266707&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
 </head>
 
@@ -377,7 +368,7 @@ End Fixed Navigation
                     <div class="price-table text-center">
                         <span>Facebook</span>
                         <div id="fb-root"></div>
-                        <div class="fb-page" data-href="https://www.facebook.com/eyadini/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/eyadini/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/eyadini/">Eyadini</a></blockquote></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/eyadiniloungenuz/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/eyadini/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/eyadini/">Eyadini</a></blockquote></div>
                     </div>
                 </div>
 
@@ -394,7 +385,7 @@ End Fixed Navigation
                     <div class="price-table text-center">
                         <span>Twitter</span>
 
-                        <a class="twitter-timeline" data-height="483" href="https://twitter.com/eyadini?ref_src=twsrc%5Etfw">Tweets by eyadini</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <a class="twitter-timeline" data-height="483" href="https://twitter.com/EyadiniLounge?ref_src=twsrc%5Etfw">Tweets by eyadini</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                          </div>
                 </div>
 
@@ -415,9 +406,9 @@ End Fixed Navigation
                     </div>
 
                     <ul class="social-button">
-                        <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.facebook.com/eyadini"><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.facebook.com/eyadiniloungenuz"><i class="fa fa-facebook fa-2x"></i></a></li>
                         <li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="https://www.instagram.com/eyadiniloungenuz/"><i class="fa fa-instagram fa-2x"></i></a></li>
-                        <li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="https://twitter.com/eyadini"><i class="fa fa-twitter fa-2x"></i></a></li>
+                        <li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="https://twitter.com/EyadiniLounge "><i class="fa fa-twitter fa-2x"></i></a></li>
                     </ul>
 
                 </div>
@@ -529,7 +520,7 @@ End Fixed Navigation
 
 <script type="text/javascript">
     $(".fb-album-container").FacebookAlbumBrowser({
-        account: "eyadini",
+        account: "eyadiniloungenuz",
         skipAlbums: ["Profile Pictures", "Timeline Photos"],
         showAccountInfo: false,
         showImageCount: true,
@@ -555,6 +546,15 @@ End Fixed Navigation
             //Handles photo thumbnail click event
         }
     });
+</script>
+
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=564202827266707&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 
 </body>
